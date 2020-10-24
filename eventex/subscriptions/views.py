@@ -1,6 +1,6 @@
 from django.core import mail
 from django.contrib import messages
-from django.http import HttpResponseRedirect, HttpResponse
+from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.template.loader import render_to_string
 
@@ -23,4 +23,3 @@ def subscribe(request):
     else:
         context = {'form': SubscriptionForm()}
         return render(request, 'subscriptions/subscription_form.html', context)
-
