@@ -1,4 +1,5 @@
 .env
+.env_sendgrid
 .idea
 .wttd
 *.sqlite3
