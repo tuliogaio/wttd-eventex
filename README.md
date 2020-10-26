@@ -2,6 +2,8 @@
 
 Sistema de Eventos encomendado pela Morena.
 
+[![Build Status](https://travis-ci.com/tuliogaio/wttd-eventex.svg?branch=main)](https://travis-ci.com/tuliogaio/wttd-eventex)
+
 ## Como desenvolver?
 
 1. Cloone o repositório
